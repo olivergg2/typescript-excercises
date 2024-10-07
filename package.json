@@ -2,11 +2,12 @@
   "name": "ts-intro",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "run": "node --experimental-strip-types src/index.ts"
+    "run": "node --experimental-strip-types src/index.ts",
+    "start": "node dist/script.js",
+    "dev": "tsc src/script.ts && node src/script.js"
   },
   "dependencies": {},
   "devDependencies": {
