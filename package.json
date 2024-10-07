@@ -1,0 +1,16 @@
+{
+  "name": "ts-intro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node --experimental-strip-types src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
